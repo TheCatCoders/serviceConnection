@@ -1,4 +1,4 @@
-package com.thecat.service.impl;
+package com.thecat.helper;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,9 +8,9 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class ServiceConnector {
+public class RESTConnector {
 
-	private ServiceConnector connection;
+	private RESTConnector connection;
 
 
 	/**

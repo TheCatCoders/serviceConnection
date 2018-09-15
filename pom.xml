@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.thecat</groupId>
-    <artifactId>serviceConnector</artifactId>
+    <artifactId>connectorHelper</artifactId>
     <packaging>jar</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ServiceConnector</name>
+    <name>connectionHelper</name>
     <url>http://maven.apache.org</url>
     <description>Library that help to create a connection to another Service or API</description>
 
@@ -33,7 +33,7 @@
     </dependencies>
 
     <build>
-        <finalName>serviceConnector</finalName>
+        <finalName>connectionHelper</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
