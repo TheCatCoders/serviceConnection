@@ -9,19 +9,16 @@
     <name>connectionHelper</name>
     <url>http://maven.apache.org</url>
     <description>Library that help to create a connection to another Service or API</description>
-
     <repositories>
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
     </repositories>
-
     <properties>
         <jdk.version>1.8</jdk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <dependencies>
         <!--  This section is reserve for libraries needed for test -->
         <dependency>
@@ -31,7 +28,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
     <build>
         <finalName>connectionHelper</finalName>
         <plugins>
